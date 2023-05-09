@@ -1,4 +1,4 @@
-SRCS_NAME = ft_printf ft_itoa_base format_c format_s format_p format_d
+SRCS_NAME = ft_printf ft_itoa_base format_c format_s format_p format_d_i format_u format_x format_upper_x
 
 SRCS = $(SRCS_NAME:=.c)
 
@@ -21,6 +21,7 @@ $(NAME): $(OBJECTS)
 clean:
 	make clean -C ./libft
 	rm -f $(OBJECTS)
+
 fclean: clean
 	make fclean -C ./libft
 	rm -f $(NAME)

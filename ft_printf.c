@@ -6,7 +6,7 @@
 /*   By: melee <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/06 12:28:11 by melee             #+#    #+#             */
-/*   Updated: 2023/05/08 18:06:09 by melee            ###   ########.fr       */
+/*   Updated: 2023/05/09 10:17:17 by melee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,18 @@ static int	format_parser(char c, va_list ptr)
 	else if (c == 'p')
 		count = format_p(ptr);
 	else if (c == 'd' || c == 'i')
-		count = format_d(ptr);
-
+		count = format_d_i(ptr);
+	else if (c == 'u')
+		count = format_u(ptr);
+	else if (c == 'x')
+		count = format_x(ptr);
+	else if (c == 'X')
+		count = format_upper_x(ptr);
+	else if (c == '%')
+	{
+		ft_putchar_fd('%', FD);
+		count = 1;
+	}
 	return (count);
 }
 
