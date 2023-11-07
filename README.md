@@ -23,6 +23,6 @@ git clone https://github.com/mseong123/ft_printf.git
 ## Compile and Run
 
 ```shell
-make bonus
+make
 ```
 This will compile the associated functions using Makefile into `libftprintf.a` library to be used in future 42 projects.
