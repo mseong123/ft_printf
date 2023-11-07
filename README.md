@@ -1,7 +1,7 @@
 # ft_printf | 42KL
 
 The purpose of this project is to learn about *variadic functions* by recoding `libc`'s [`printf`](https://man7.org/linux/man-pages/man3/printf.3.html).
-Manage `diuxXcsp%` type conversions. Previous libc functions created as part of [`libft`](https://github.com/mseong123/libft/tree/master) project are also used to complete this project. Download [Subject PDF](https://github.com/mseong123/ft_printf/blob/0cc73a56a6c646b267cf51246b284ce496094d44/en.subject.pdf).
+Manage `diuxXcsp%` type conversions. Previous libc functions created as part of [`libft`](https://github.com/mseong123/libft/tree/master) project are also used to complete this project. [Subject PDF](https://github.com/mseong123/ft_printf/blob/0cc73a56a6c646b267cf51246b284ce496094d44/en.subject.pdf) link.
 
 ### Allowed Functions
 
